@@ -167,14 +167,30 @@ Nenhum desses recursos foi aplicado — apenas identificados como oportunidades 
 
 ## 10. Referências — princípios aproveitáveis
 
-Conforme definido com o cliente, apenas a página de **sumário/índice** de `referencias/Sumario_2024.pdf` foi considerada (o restante do relatório, sobre transição ecológica, está fora do escopo de inspiração visual).
+### `Sumario_2024.pdf` (uso restrito ao sumário/índice, conforme definido com o cliente)
 
 Princípios identificados nessa página (sem copiar cor, layout ou identidade):
 - **Espaçamento generoso entre entradas do índice** — cada item tem bastante respiro vertical antes do próximo, o que facilita a leitura rápida. O sumário atual de "Além da Imagem" está mais comprimido; esse é um princípio direto de aplicar.
 - **Entrada de índice com "teaser" descritivo**, não só o título da seção — cada número vem acompanhado de uma frase curta que já entrega contexto sobre o conteúdo, em vez de apenas o nome da matéria. Isso poderia enriquecer o sumário atual sem mudar sua estrutura básica (número + categoria + título).
 - **Hierarquia clara entre número e texto** — os números do índice são grandes e ganham destaque cromático próprio, separando visualmente "onde" de "o que" — princípio já usado parcialmente no sumário atual (números em azul/negrito), pode ser reforçado.
 
-Nenhum layout, paleta ou elemento gráfico específico do relatório de referência foi ou deve ser reproduzido.
+### `Relatorio_2024.pdf` (referência visual completa, conforme definido com o cliente)
+
+Versão integral do mesmo relatório institucional. Princípios identificados (sem copiar a paleta verde-oliva nem a identidade do relatório):
+- **Bloco "ícone + citação de destaque" ao lado do texto** — em várias páginas, um ícone temático pequeno acompanha uma frase de resumo em destaque, lado a lado com o corpo de texto corrido. É uma forma eficiente de dar um resumo escaneável antes do detalhe — poderia inspirar um recurso semelhante nos artigos densos de "Além da Imagem" (págs. 10–11, 14–16 da auditoria).
+- **Caixas de conteúdo complementar com fundo de cor sólida** — informações de apoio (explicações de programas, dados extras) são isoladas em blocos de cor cheia, diferenciando claramente "texto principal" de "informação de contexto". Já existe algo parecido em "Além da Imagem" (boxes de sugestão, bio de autor); o relatório reforça esse princípio de forma consistente ao longo de todo o documento.
+- **Infográfico comparativo tipo "blocos empilhados"** (Figura 10, oportunidades de PIB por setor) — usa barras/blocos de tamanhos proporcionais aos valores, com rótulos numéricos diretos em cada bloco. É um bom modelo de como apresentar números/dados de forma visual sem precisar de um gráfico complexo — aplicável às páginas de dados institucionais da revista (Fiscalização, Boletim Informativo).
+- **Tabelas organizadas com cabeçalho de cor e linhas alternadas** — usadas para comparar múltiplos planos/programas; útil como referência para eventuais comparativos futuros, mas não há nada parecido no material atual que precise disso agora.
+
+### `Superinteressante_revista.pdf` (apenas princípios editoriais gerais, conforme briefing)
+
+Princípios identificados (sem copiar identidade, cores ou layout da revista):
+- **Sumário com sistema de cores por editoria** ("Cardápio": Supernovas / Reportagens / Superradar, cada uma com uma cor própria) e uma **legenda explicando como ler o sumário** — um recurso de usabilidade editorial que "Além da Imagem" ainda não tem. As categorias já existentes no sumário atual (Editorial, Institucional, Cobertura, Serviço, Cultura etc.) poderiam ganhar um código de cor consistente, tornando a navegação mais clara.
+- **Infográfico de "mapa do conteúdo"** (página "Zoom", com blocos proporcionais ao número de páginas de cada assunto) — mostra que um sumário pode comunicar visualmente peso/quantidade de conteúdo, não só a ordem. Ideia adaptável em versão simplificada, não a reprodução do gráfico em si.
+- **Chamadas de capa curtas e diretas, com uma linha de contexto abaixo do título** — já é um recurso que "Além da Imagem" usa na própria capa (Opinião/Transparência/Cobertura); o material de referência reforça que esse padrão funciona bem e vale manter.
+- **Ritmo de matérias de tamanhos variados** (de uma página a várias, indicado inclusive visualmente no sumário) — reforça o princípio do briefing de que a publicação deve ter variedade de peso entre as matérias, e não que todas as seções precisam ocupar o mesmo espaço.
+
+Nenhum layout, paleta, tipografia ou elemento gráfico específico dos três materiais de referência foi ou deve ser reproduzido — apenas os princípios estruturais/editoriais descritos acima.
 
 ---
 

@@ -4,7 +4,7 @@
 
 - `original/` — documento principal a ser redesenhado (`ALEM_DA_IMAGEM_N1.pdf`). **Nunca alterar ou sobrescrever este arquivo.**
 - `instrucoes/` — instruções oficiais do cliente (`instrucoes.docx`).
-- `referencias/` — materiais de referência visual/editorial (`Sumario_2024.pdf`). **Não é o documento a ser redesenhado.**
+- `referencias/` — materiais de referência visual/editorial (`Sumario_2024.pdf`, `Relatorio_2024.pdf`, `Superinteressante_revista.pdf`). **Não são o documento a ser redesenhado.**
 - `final/` — onde a versão redesenhada deve ser produzida.
 
 Não criar outras pastas na raiz sem necessidade justificada.
@@ -15,8 +15,14 @@ Não criar outras pastas na raiz sem necessidade justificada.
 
 ## Referência visual
 
-`referencias/Sumario_2024.pdf` — relatório "Pontos de Virada Tecnológica para a Transformação Ecológica" (Instituto AYA / Systemiq, produzido em InDesign, 96 páginas).
-**Escopo de uso definido pelo cliente:** usar apenas a página de SUMÁRIO/ÍNDICE (estrutura de índice numerado, títulos de chamada, hierarquia de entradas) como referência de organização. O restante do conteúdo/tema do relatório (transição ecológica) e seu tratamento visual completo **não** devem ser usados como inspiração — não copiar sua identidade visual, paleta ou diagramação além da lógica do sumário.
+- `referencias/Sumario_2024.pdf` — relatório "Pontos de Virada Tecnológica para a Transformação Ecológica" (Instituto AYA / Systemiq, produzido em InDesign, 96 páginas).
+  **Escopo de uso definido pelo cliente:** usar apenas a página de SUMÁRIO/ÍNDICE (estrutura de índice numerado, títulos de chamada, hierarquia de entradas) como referência de organização. O restante do conteúdo/tema do relatório (transição ecológica) e seu tratamento visual completo **não** devem ser usados como inspiração — não copiar sua identidade visual, paleta ou diagramação além da lógica do sumário.
+
+- `referencias/Relatorio_2024.pdf` — versão completa do mesmo relatório "Pontos de Virada Tecnológica para a Transformação Ecológica" (184 páginas).
+  **Escopo de uso definido pelo cliente:** pode ser usado como referência visual completa (diagramação, hierarquia, boxes coloridos, infográficos, tratamento de fotos) — sem essa restrição específica do sumário. Ainda assim, valem as regras gerais de referência: não copiar identidade visual, paleta ou layout diretamente, apenas princípios editoriais adaptáveis.
+
+- `referencias/Superinteressante_revista.pdf` — edição 271 (Nov/2009) da revista Superinteressante, digitalizada, 108 páginas (inclui anúncios).
+  **Escopo de uso definido pelo cliente:** apenas princípios editoriais gerais (hierarquia, ritmo, impacto visual, chamadas, destaques), como já previsto no briefing — **nunca** copiar identidade, layout ou elementos específicos dessa publicação.
 
 Revistas como Veja e Superinteressante podem inspirar apenas princípios editoriais gerais (hierarquia, ritmo, impacto visual, chamadas, destaques) — **nunca** copiar identidade, layout ou elementos dessas publicações.
 
