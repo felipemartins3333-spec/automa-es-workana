@@ -1,0 +1,8 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 794, "h": 1123, "title": "Pág. 9 — Abertura", "print": "fixed" },
+    { "file": "ArtigoIARM.dc.html", "x": 890, "y": 0, "w": 794, "h": 1123, "title": "Pág. 16 — Artigo IA/RM", "print": "fixed" },
+    { "file": "InspecoesEmFoco.dc.html", "x": 1780, "y": 0, "w": 794, "h": 1123, "title": "Pág. 29 — Inspeções em Foco", "print": "fixed" }
+  ],
+  "launch": { "view": "canvas" }
+}
