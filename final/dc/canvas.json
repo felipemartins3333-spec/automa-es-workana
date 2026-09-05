@@ -1,0 +1,340 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 01",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg02.dc.html",
+      "x": 844,
+      "y": 0,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 02",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg03.dc.html",
+      "x": 1688,
+      "y": 0,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 03",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg04.dc.html",
+      "x": 2532,
+      "y": 0,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 04",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg05.dc.html",
+      "x": 3376,
+      "y": 0,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 05",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg06.dc.html",
+      "x": 4220,
+      "y": 0,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 06",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg07.dc.html",
+      "x": 5064,
+      "y": 0,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 07",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg08.dc.html",
+      "x": 0,
+      "y": 1273,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 08",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg09.dc.html",
+      "x": 844,
+      "y": 1273,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 09",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg10.dc.html",
+      "x": 1688,
+      "y": 1273,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 10",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg11.dc.html",
+      "x": 2532,
+      "y": 1273,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 11",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg12.dc.html",
+      "x": 3376,
+      "y": 1273,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 12",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg13.dc.html",
+      "x": 4220,
+      "y": 1273,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 13",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg14.dc.html",
+      "x": 5064,
+      "y": 1273,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 14",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg15.dc.html",
+      "x": 0,
+      "y": 2546,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 15",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg16.dc.html",
+      "x": 844,
+      "y": 2546,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 16",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg17.dc.html",
+      "x": 1688,
+      "y": 2546,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 17",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg18.dc.html",
+      "x": 2532,
+      "y": 2546,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 18",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg19.dc.html",
+      "x": 3376,
+      "y": 2546,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 19",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg20.dc.html",
+      "x": 4220,
+      "y": 2546,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 20",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg21.dc.html",
+      "x": 5064,
+      "y": 2546,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 21",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg22.dc.html",
+      "x": 0,
+      "y": 3819,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 22",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg23.dc.html",
+      "x": 844,
+      "y": 3819,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 23",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg24.dc.html",
+      "x": 1688,
+      "y": 3819,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 24",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg25.dc.html",
+      "x": 2532,
+      "y": 3819,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 25",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg26.dc.html",
+      "x": 3376,
+      "y": 3819,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 26",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg27.dc.html",
+      "x": 4220,
+      "y": 3819,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 27",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg28.dc.html",
+      "x": 5064,
+      "y": 3819,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 28",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg29.dc.html",
+      "x": 0,
+      "y": 5092,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 29",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg30.dc.html",
+      "x": 844,
+      "y": 5092,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 30",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg31.dc.html",
+      "x": 1688,
+      "y": 5092,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 31",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg32.dc.html",
+      "x": 2532,
+      "y": 5092,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 32",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg33.dc.html",
+      "x": 3376,
+      "y": 5092,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 33",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg34.dc.html",
+      "x": 4220,
+      "y": 5092,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 34",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg35.dc.html",
+      "x": 5064,
+      "y": 5092,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 35",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg36.dc.html",
+      "x": 0,
+      "y": 6365,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 36",
+      "print": "fixed"
+    },
+    {
+      "file": "Pg37.dc.html",
+      "x": 844,
+      "y": 6365,
+      "w": 794,
+      "h": 1123,
+      "title": "Pág. 37",
+      "print": "fixed"
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}

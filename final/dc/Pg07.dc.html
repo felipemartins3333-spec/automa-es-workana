@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&family=Inter:wght@400;500;600&display=swap">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet><style>* { box-sizing:border-box; } body{margin:0;font-family:'Inter',sans-serif;}
+.card{display:flex;flex-direction:column;align-items:center;text-align:center;}
+.card img{width:132px;height:132px;object-fit:cover;border-radius:50%;border:3px solid #0A2A6B;}
+.name{font-family:'Poppins';font-weight:700;font-size:14px;color:#0A2A6B;margin-top:12px;}
+.role{font-family:'Inter';font-size:11px;color:#777;margin-top:2px;}
+</style></helmet>
+<div style="width:794px;height:1123px;position:relative;background:#F7F8FA;padding:56px 64px 84px 64px;">
+  <div style="font-family:'Inter';font-weight:600;font-size:10px;letter-spacing:2px;color:#0A2A6B;">INSTITUCIONAL · CORED-SP</div>
+  <div style="font-family:'Poppins';font-weight:800;font-size:38px;color:#0A2A6B;margin-top:8px;">MEMBROS DA CORED</div>
+  <div style="width:56px;height:3px;background:#FFC20E;margin-top:12px;"></div>
+
+  <div style="margin-top:50px;display:flex;justify-content:center;">
+    <div class="card">
+      <img src="p07_fabricio.jpg">
+      <div class="name">Fabrício Nazzari</div>
+      <div class="role">Presidente da CORED-SP</div>
+    </div>
+  </div>
+
+  <div style="margin-top:44px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 60px;justify-items:center;">
+    <div class="card"><img src="p07_aparecida.jpg"><div class="name">Aparecida de Fátima</div><div class="role">Membro Convidado</div></div>
+    <div class="card"><img src="p07_flavio.jpg"><div class="name">Flávio Vieira</div><div class="role">Membro Convidado</div></div>
+    <div class="card"><img src="p07_carolina.jpg"><div class="name">Carolina Baione</div><div class="role">Membro Convidado</div></div>
+    <div class="card"><img src="p07_marcelo.jpg"><div class="name">Marcelo Celestino</div><div class="role">Membro Convidado</div></div>
+  </div>
+
+  <div style="position:absolute;left:64px;right:64px;bottom:34px;display:flex;justify-content:space-between;font-family:'Inter';font-size:10.5px;letter-spacing:1px;color:#999;border-top:1px solid #ddd;padding-top:12px;">
+    <div>ALÉM DA IMAGEM · CORED-SP · CRTR-SP</div>
+    <div style="font-weight:700;color:#0A2A6B;">05</div>
+  </div>
+</div>
+</x-dc>
+<script data-dc-script>class Component extends DCLogic {}</script>
+</body>
+</html>

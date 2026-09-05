@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Playfair+Display:ital,wght@1,500;1,600&family=Inter:wght@400;500;600&display=swap">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', system-ui, sans-serif; }
+    a { color: #FFC20E; } a:hover { color: #ffd65c; }
+  </style>
+</helmet>
+<div style="width:794px;height:1123px;position:relative;overflow:hidden;background:linear-gradient(160deg,#6a2318 0%,#5c0c06 55%,#4d0904 100%);color:#fff;">
+
+  <!-- decorative circular photo, bottom-right -->
+  <div style="position:absolute;right:-70px;bottom:-40px;width:520px;height:520px;border-radius:50%;overflow:hidden;border:2px solid rgba(255,255,255,0.55);box-shadow:0 0 0 14px rgba(0,0,0,0.08);">
+    <img src="xray.jpg" style="width:100%;height:100%;object-fit:cover;opacity:0.9;" alt="">
+  </div>
+  <div style="position:absolute;right:210px;bottom:250px;width:190px;height:190px;border-radius:50%;border:1px solid rgba(255,255,255,0.35);"></div>
+
+  <!-- content column -->
+  <div style="position:relative;padding:64px 72px 0 64px;max-width:560px;">
+    <div style="font-family:'Inter';font-weight:600;font-size:13px;letter-spacing:3px;color:#FFC20E;">ARTIGO DE OPINIÃO</div>
+
+    <div style="margin-top:28px;font-family:'Poppins';font-weight:800;line-height:0.98;">
+      <div style="font-size:64px;color:#ffffff;">FORMAÇÃO</div>
+      <div style="font-size:64px;margin-top:4px;">
+        <span style="color:#ffffff;">EM </span><span style="background:#FFC20E;color:#5c0c06;padding:2px 10px;">RADIOLOGIA</span>
+      </div>
+    </div>
+
+    <div style="margin-top:18px;font-family:'Inter';font-weight:600;font-size:15px;letter-spacing:1.5px;color:#f3c98f;">ENTRE O CURRÍCULO E A PRÁTICA</div>
+
+    <div style="margin-top:34px;width:56px;height:3px;background:#FFC20E;"></div>
+
+    <div style="margin-top:24px;font-family:'Playfair Display';font-style:italic;font-weight:500;font-size:22px;line-height:1.5;color:#f5eee7;max-width:480px;">
+      &ldquo;A formação contemporânea em saúde, entretanto, exige uma perspectiva integral, que articule conhecimentos, práticas, atitudes e valores.&rdquo;
+    </div>
+
+    <div style="margin-top:56px;font-family:'Inter';font-size:14px;line-height:1.6;color:#f0e6df;">
+      <div style="opacity:0.85;">Por</div>
+      <div style="font-weight:600;font-size:15px;margin-top:2px;">Marcelo Salvador Celestino —</div>
+      <div style="max-width:300px;margin-top:2px;">Doutor em Mídia e Tecnologia (UNESP), Tecnólogo em Radiologia e Bacharel em Administração</div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div style="position:absolute;left:64px;right:64px;bottom:36px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,0.25);padding-top:14px;font-family:'Inter';font-size:11px;letter-spacing:1px;color:#e7c9a9;">
+    <div>ALÉM DA IMAGEM · CORED-SP · CRTR-SP</div>
+    <div style="font-weight:600;color:#FFC20E;">07</div>
+  </div>
+</div>
+</x-dc>
+<script data-dc-script>
+class Component extends DCLogic {}
+</script>
+</body>
+</html>
