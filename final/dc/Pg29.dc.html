@@ -2,151 +2,89 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Alike&family=Montserrat:ital,wght@0,300..800;1,300..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Poppins:wght@400;500;600;700;800&display=swap">
   <script src="./support.js"></script>
 </head>
 <body>
 <x-dc>
-<helmet>
-  <style>
-    * { box-sizing: border-box; }
-    body { margin: 0; font-family: 'Inter', system-ui, sans-serif; }
-    a { color: #0C4195; } a:hover { color: #0A2A6B; }
-    .stat-num { font-family:'Poppins'; font-weight:800; font-size:34px; color:#F1991D; line-height:1; }
-    .stat-label { font-family:'Inter'; font-size:11.5px; color:#3a3a3a; margin-top:4px; }
-    .icon-badge { width:40px;height:40px;border-radius:50%;background:#0C4195;display:flex;align-items:center;justify-content:center;flex-shrink:0; }
-  </style>
-</helmet>
-<div style="width:794px;height:1123px;position:relative;background:#FAFAF9;color:#1a1a1a;padding:52px 60px 84px 60px;">
-
-  <div style="font-family:'Inter';font-weight:600;font-size:10.5px;letter-spacing:2px;color:#8a8a8a;">SEÇÃO INSTITUCIONAL · BOLETIM INFORMATIVO</div>
-
-  <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-top:14px;">
-    <div>
-      <span style="display:inline-block;background:#0C4195;color:#fff;font-family:'Inter';font-weight:600;font-size:10.5px;letter-spacing:1px;padding:5px 12px;border-radius:3px;">AÇÕES INSTITUCIONAIS</span>
-      <div style="font-family:'Poppins';font-weight:800;font-size:34px;color:#0A2A6B;margin-top:10px;">INSPEÇÕES EM FOCO</div>
-      <div style="font-family:'Inter';font-size:12.5px;color:#555;margin-top:2px;">Dados detalhados do período · <strong>JUN&ndash;AGO 2026</strong></div>
-    </div>
-  </div>
-
-  <!-- unified data grid: 3 months -->
-  <div style="margin-top:26px;display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:20px;border-top:1px solid #e6e2da;border-bottom:1px solid #e6e2da;padding:20px 0;">
-    <div style="display:flex;gap:12px;align-items:flex-start;">
-      <div class="icon-badge">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-      </div>
-      <div>
-        <div style="font-family:'Inter';font-weight:700;font-size:11px;letter-spacing:1px;color:#0A2A6B;">JUNHO</div>
-        <div class="stat-num">243</div>
-        <div class="stat-label">visitas realizadas</div>
-        <div class="stat-num" style="font-size:22px;margin-top:6px;">1.778</div>
-        <div class="stat-label">profissionais inspecionados</div>
-      </div>
-    </div>
-    <div style="display:flex;gap:12px;align-items:flex-start;">
-      <div class="icon-badge">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-      </div>
-      <div>
-        <div style="font-family:'Inter';font-weight:700;font-size:11px;letter-spacing:1px;color:#0A2A6B;">JULHO</div>
-        <div class="stat-num">244</div>
-        <div class="stat-label">visitas realizadas</div>
-        <div class="stat-num" style="font-size:22px;margin-top:6px;">1.982</div>
-        <div class="stat-label">profissionais inspecionados</div>
-      </div>
-    </div>
-    <div style="display:flex;gap:12px;align-items:flex-start;">
-      <div class="icon-badge">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-      </div>
-      <div>
-        <div style="font-family:'Inter';font-weight:700;font-size:11px;letter-spacing:1px;color:#0A2A6B;">AGOSTO *</div>
-        <div class="stat-num">116</div>
-        <div class="stat-label">visitas realizadas</div>
-        <div class="stat-num" style="font-size:22px;margin-top:6px;">730</div>
-        <div class="stat-label">profissionais inspecionados</div>
-      </div>
-    </div>
-  </div>
-
-  <div style="margin-top:14px;display:flex;gap:10px;align-items:flex-start;background:#F4F7FC;padding:10px 14px;border-radius:4px;">
-    <span style="font-family:'Poppins';font-weight:800;color:#0C4195;font-size:14px;">*</span>
-    <div style="font-family:'Inter';font-size:11px;line-height:1.5;color:#444;">Os dados de agosto são parciais, pois o mês não havia sido concluído até o fechamento da revista. Atualizaremos esses dados na próxima edição.</div>
-  </div>
-
-  <!-- photo + map + baixas/suspensões row -->
-  <div style="margin-top:20px;display:grid;grid-template-columns:130px 130px 1fr;gap:20px;align-items:start;">
-    <div>
-      <img src="wener.jpg" style="width:130px;height:130px;object-fit:cover;border-radius:6px;display:block;">
-      <div style="font-family:'Inter';font-size:9.5px;color:#666;margin-top:6px;line-height:1.35;">Wener — um dos agentes de Fiscalização</div>
-    </div>
-    <div>
-      <img src="mapa_sp.jpg" style="width:130px;object-fit:contain;display:block;margin-top:4px;">
-    </div>
-    <div>
-      <div style="font-family:'Inter';font-weight:700;font-size:11px;letter-spacing:1px;color:#0A2A6B;margin-bottom:10px;">BAIXAS E SUSPENSÕES · JUN/JUL</div>
-      <div style="display:flex;gap:24px;">
-        <div style="display:flex;gap:10px;align-items:center;">
-          <div class="icon-badge" style="width:34px;height:34px;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-          </div>
-          <div>
-            <div class="stat-num" style="font-size:22px;">73</div>
-            <div class="stat-label">baixas</div>
-          </div>
-        </div>
-        <div style="display:flex;gap:10px;align-items:center;">
-          <div class="icon-badge" style="width:34px;height:34px;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
-          </div>
-          <div>
-            <div class="stat-num" style="font-size:22px;">196</div>
-            <div class="stat-label">suspensões</div>
-          </div>
-        </div>
-      </div>
-      <div style="margin-top:14px;">
-        <span class="stat-num" style="font-size:22px;">379</span>
-        <span class="stat-label" style="margin-left:6px;">certificados SATR</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- transparência box + ética cards -->
-  <div style="margin-top:22px;display:grid;grid-template-columns:1fr 1fr;gap:22px;">
-    <div style="background:#FFF6DC;border:1px solid #FFC20E;border-radius:6px;padding:16px 18px;">
-      <div style="font-family:'Poppins';font-weight:700;font-size:13px;color:#8a5b00;">TRANSPARÊNCIA E GESTÃO EM PAUTA!</div>
-      <div style="font-family:'Inter';font-weight:600;font-size:10.5px;letter-spacing:1px;color:#8a5b00;margin-top:2px;">PRESTAÇÃO DE CONTAS · 2025</div>
-      <div style="font-family:'Inter';font-size:10.5px;line-height:1.55;color:#4a3b12;margin-top:10px;">As contas de 2025 do CRTR-SP foram aprovadas com ressalvas, após a Comissão de Tomada de Contas apontar irregularidades e recomendar novos procedimentos de apuração e auditoria. Acesse a matéria completa no site <a href="#">crtrsp.org.br</a> e confira todos os detalhes.</div>
-    </div>
-    <div>
-      <div style="font-family:'Poppins';font-weight:700;font-size:13px;color:#0A2A6B;margin-bottom:10px;">DADOS DO SETOR DE ÉTICA</div>
-      <div style="display:flex;flex-direction:column;gap:8px;">
-        <div style="display:flex;align-items:center;gap:12px;background:#F4F7FC;border-left:3px solid #0C4195;padding:8px 12px;">
-          <div class="stat-num" style="font-size:22px;">6</div>
-          <div class="stat-label" style="margin-top:0;">Denúncias encaminhadas ao COREFI</div>
-        </div>
-        <div style="display:flex;align-items:center;gap:12px;background:#F4F7FC;border-left:3px solid #0C4195;padding:8px 12px;">
-          <div class="stat-num" style="font-size:22px;">11</div>
-          <div class="stat-label" style="margin-top:0;">Certidões éticas emitidas</div>
-        </div>
-        <div style="display:flex;align-items:center;gap:12px;background:#F4F7FC;border-left:3px solid #0C4195;padding:8px 12px;">
-          <div class="stat-num" style="font-size:22px;">1</div>
-          <div class="stat-label" style="margin-top:0;">Processo em fase de sindicância</div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- footer -->
-  <div style="position:absolute;left:60px;right:60px;bottom:32px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #ddd;padding-top:12px;font-family:'Inter';font-size:10.5px;letter-spacing:1px;color:#666;">
-    <div>ALÉM DA IMAGEM · CORED-SP · CRTR-SP</div>
-    <div style="font-weight:700;color:#0A2A6B;">27</div>
-  </div>
+<helmet><style>
+* { box-sizing:border-box; }
+body { margin:0; font-family:'Source Serif 4',Georgia,'Liberation Serif',serif; }
+a { color:#0a2a6b; } a:hover { color:#0c4195; }
+p { margin:0; }
+</style></helmet>
+<div style="position:relative;width:794px;height:1123px;overflow:hidden;background:#ffffff">
+  <img src="plate29.jpg" style="position:absolute;left:0;top:0;width:794px;height:1123px;" alt="">
+  <p style="position:absolute;left:97.4px;top:91.5px;height:20.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:17.3px;line-height:20.8px;color:#ffffff;white-space:pre;margin:0">AÇÕES INSTITUCIONAIS</p>
+  <p style="position:absolute;left:82.5px;top:275.0px;height:18.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:15.6px;line-height:18.8px;color:#3489b5;white-space:pre;margin:0">JUNHO</p>
+  <p style="position:absolute;left:83.3px;top:453.0px;height:17.6px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.7px;line-height:17.6px;color:#3489b5;white-space:pre;margin:0">JULHO</p>
+  <p style="position:absolute;left:89.8px;top:635.5px;height:17.6px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.7px;line-height:17.6px;color:#3489b5;white-space:pre;margin:0">AGOSTO *</p>
+  <p style="position:absolute;left:89.8px;top:743.2px;height:14.5px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:11.7px;line-height:14.5px;color:#101010;white-space:pre;margin:0;font-weight:700">profissionais</p>
+  <p style="position:absolute;left:89.8px;top:757.0px;height:14.5px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:11.7px;line-height:14.5px;color:#101010;white-space:pre;margin:0;font-weight:700">inspecionados</p>
+  <p style="position:absolute;left:88.0px;top:112.8px;height:59.9px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:49.9px;line-height:59.9px;color:#101010;white-space:pre;margin:0">INSPEÇÕES</p>
+  <p style="position:absolute;left:88.0px;top:156.8px;height:59.9px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:49.9px;line-height:59.9px;color:#101010;white-space:pre;margin:0">EM FOCO</p>
+  <p style="position:absolute;left:78.5px;top:220.9px;height:16.6px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.4px;line-height:16.6px;color:#101010;white-space:pre;margin:0;font-weight:700">Dados detalhados do período</p>
+  <p style="position:absolute;left:78.5px;top:239.0px;height:18.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.7px;line-height:18.2px;color:#3489b5;white-space:pre;margin:0;font-weight:700">JUN–AUG 2026</p>
+  <p style="position:absolute;left:88.0px;top:290.6px;height:59.0px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:49.2px;line-height:59.0px;color:#3489b5;white-space:pre;margin:0">243</p>
+  <p style="position:absolute;left:89.8px;top:339.8px;height:18.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.7px;line-height:18.2px;color:#101010;white-space:pre;margin:0;font-weight:700">visitas</p>
+  <p style="position:absolute;left:89.8px;top:372.6px;height:26.6px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:22.2px;line-height:26.6px;color:#3489b5;white-space:pre;margin:0">1.778</p>
+  <p style="position:absolute;left:89.8px;top:399.2px;height:14.5px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:11.7px;line-height:14.5px;color:#101010;white-space:pre;margin:0;font-weight:700">profissionais</p>
+  <p style="position:absolute;left:89.8px;top:413.0px;height:14.5px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:11.7px;line-height:14.5px;color:#101010;white-space:pre;margin:0;font-weight:700">inspecionados</p>
+  <p style="position:absolute;left:88.0px;top:472.0px;height:57.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:47.7px;line-height:57.2px;color:#3489b5;white-space:pre;margin:0">244</p>
+  <p style="position:absolute;left:89.8px;top:520.6px;height:18.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.7px;line-height:18.2px;color:#101010;white-space:pre;margin:0;font-weight:700">visitas</p>
+  <p style="position:absolute;left:89.8px;top:553.7px;height:25.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:21.0px;line-height:25.2px;color:#3489b5;white-space:pre;margin:0">1.982</p>
+  <p style="position:absolute;left:88.0px;top:656.3px;height:51.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:42.8px;line-height:51.4px;color:#3489b5;white-space:pre;margin:0">116</p>
+  <p style="visibility:hidden;position:absolute;left:166.8px;top:792.8px;height:16.7px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.0px;line-height:16.7px;color:#3489b5;white-space:pre;margin:0">OBSERVAÇÃO – AGOSTO</p>
+  <p style="position:absolute;left:163.3px;top:799.7px;height:16.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.3px;line-height:16.4px;color:#101010;white-space:pre;margin:0;font-weight:700">Os dados de agosto são parciais, pois o</p>
+  <p style="position:absolute;left:163.3px;top:814.8px;height:16.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.3px;line-height:16.4px;color:#101010;white-space:pre;margin:0;font-weight:700">mês não havia sido concluído até o</p>
+  <p style="position:absolute;left:163.3px;top:829.8px;height:16.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.3px;line-height:16.4px;color:#101010;white-space:pre;margin:0;font-weight:700">fechamento da revista. Atualizaremos</p>
+  <p style="position:absolute;left:163.3px;top:844.8px;height:16.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.3px;line-height:16.4px;color:#101010;white-space:pre;margin:0;font-weight:700">esses dados na próxima edição.</p>
+  <p style="position:absolute;left:93.5px;top:897.4px;height:17.0px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.1px;line-height:17.0px;color:#ffffff;white-space:pre;margin:0">BAIXAS E SUSPENSÕES - JUN/JUL</p>
+  <p style="position:absolute;left:89.8px;top:702.0px;height:26.6px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:22.2px;line-height:26.6px;color:#3489b5;white-space:pre;margin:0">730</p>
+  <p style="position:absolute;left:72.9px;top:1070.3px;height:12.7px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.5px;line-height:12.7px;color:#2682be;white-space:pre;margin:0">ALÉM DA IMAGEM · CORED-SP · CRTR-SP</p>
+  <p style="position:absolute;left:708.7px;top:1070.3px;height:12.7px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.5px;line-height:12.7px;color:#2682be;white-space:pre;margin:0">27</p>
+  <p style="position:absolute;left:58.6px;top:50.2px;height:13.9px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:11.4px;line-height:13.9px;color:#fdc226;white-space:pre;margin:0">S E Ç Ã O I N S T I T U C I O N A L - B O L E T I M I N F O R M A T I V O</p>
+  <p style="position:absolute;left:207.0px;top:943.3px;height:18.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:15.6px;line-height:18.8px;color:#101010;white-space:pre;margin:0;font-weight:700"><span style="font-style:italic">73 BAIXAS</span></p>
+  <p style="position:absolute;left:207.0px;top:970.4px;height:18.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:15.6px;line-height:18.8px;color:#101010;white-space:pre;margin:0;font-weight:700"><span style="font-style:italic">196 SUSPENSÕES</span></p>
+  <p style="position:absolute;left:274.0px;top:601.4px;height:18.3px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.8px;line-height:18.3px;color:#101010;white-space:pre;margin:0"><span style="font-weight:700">Wener - </span>Um dos agentes</p>
+  <p style="position:absolute;left:274.0px;top:618.8px;height:18.3px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.8px;line-height:18.3px;color:#101010;white-space:pre;margin:0">de Fiscalização</p>
+  <p style="position:absolute;left:379.3px;top:942.3px;height:29.3px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:29.3px;line-height:29.3px;color:#0d47a1;white-space:pre;margin:0;font-weight:700">379</p>
+  <p style="position:absolute;left:353.4px;top:975.3px;height:13.3px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.3px;line-height:13.3px;color:#5c7baa;white-space:pre;margin:0">Certificados SATR</p>
+  <p style="position:absolute;left:505.5px;top:743.2px;height:24.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:20.7px;line-height:24.8px;color:#3489b5;white-space:pre;margin:0;font-weight:700">DADOS DO SETOR DE ÉTICA</p>
+  <p style="visibility:hidden;position:absolute;left:605.1px;top:984.3px;height:16.0px;font-family:'Poppins','Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.3px;line-height:16.0px;color:#e65100;white-space:pre;margin:0;font-weight:700">Auto de Infração</p>
+  <p style="visibility:hidden;position:absolute;left:598.3px;top:813.8px;height:16.0px;font-family:'Poppins','Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.3px;line-height:16.0px;color:#1b5e20;white-space:pre;margin:0;font-weight:700">Rep. Sanitárias</p>
+  <p style="position:absolute;left:534.6px;top:977.0px;height:34.7px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:34.7px;line-height:34.7px;color:#e65100;white-space:pre;margin:0;font-weight:700">1</p>
+  <p style="position:absolute;left:594.1px;top:991.4px;height:13.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.2px;line-height:13.2px;color:#3489b5;white-space:pre;margin:0">Processo em fase de</p>
+  <p style="position:absolute;left:594.1px;top:1006.3px;height:13.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.2px;line-height:13.2px;color:#3489b5;white-space:pre;margin:0">sindicância</p>
+  <p style="position:absolute;left:538.1px;top:808.9px;height:34.7px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:34.7px;line-height:34.7px;color:#1b5e20;white-space:pre;margin:0;font-weight:700">6</p>
+  <p style="position:absolute;left:596.0px;top:815.9px;height:13.3px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.3px;line-height:13.3px;color:#3489b5;white-space:pre;margin:0">Denúncias</p>
+  <p style="position:absolute;left:596.0px;top:830.8px;height:13.3px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.3px;line-height:13.3px;color:#3489b5;white-space:pre;margin:0">encaminhadas ao</p>
+  <p style="position:absolute;left:596.0px;top:845.7px;height:13.3px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.3px;line-height:13.3px;color:#3489b5;white-space:pre;margin:0">COREFI</p>
+  <p style="visibility:hidden;position:absolute;left:594.1px;top:898.1px;height:16.0px;font-family:'Poppins','Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.3px;line-height:16.0px;color:#4a148c;white-space:pre;margin:0;font-weight:700">Rep. Trabalhistas</p>
+  <p style="position:absolute;left:526.0px;top:893.3px;height:34.7px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:34.7px;line-height:34.7px;color:#4a148c;white-space:pre;margin:0;font-weight:700">11</p>
+  <p style="position:absolute;left:594.1px;top:902.9px;height:13.3px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.3px;line-height:13.3px;color:#3489b5;white-space:pre;margin:0">Certidões éticas</p>
+  <p style="position:absolute;left:594.1px;top:918.9px;height:13.3px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.3px;line-height:13.3px;color:#3489b5;white-space:pre;margin:0">emitidas</p>
+  <p style="position:absolute;left:510.4px;top:120.7px;height:33.6px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:22.9px;line-height:33.6px;color:#082244;white-space:pre;margin:0"><span style="font-family:'Montserrat','Liberation Sans',Arial,sans-serif">🔎</span> TRANSPARÊNCIA E</p>
+  <p style="position:absolute;left:510.4px;top:146.5px;height:33.6px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:22.9px;line-height:33.6px;color:#082244;white-space:pre;margin:0">GESTÃO EM PAUTA!</p>
+  <p style="position:absolute;left:510.4px;top:243.5px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">As contas de 2025 do CRTR-SP</p>
+  <p style="position:absolute;left:510.4px;top:268.7px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">foram aprovadas com ressalvas,</p>
+  <p style="position:absolute;left:510.4px;top:293.8px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">após a Comissão de Tomada de</p>
+  <p style="position:absolute;left:510.4px;top:319.0px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">Contas apontar irregularidades e</p>
+  <p style="position:absolute;left:510.4px;top:344.1px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">recomendar novos procedimentos</p>
+  <p style="position:absolute;left:510.4px;top:369.3px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">de apuração e auditoria. O</p>
+  <p style="position:absolute;left:510.4px;top:394.4px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">relatório também destaca medidas</p>
+  <p style="position:absolute;left:510.4px;top:419.6px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">adotadas pela atual gestão para</p>
+  <p style="position:absolute;left:510.4px;top:444.8px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">fortalecer o controle, a</p>
+  <p style="position:absolute;left:510.4px;top:469.9px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">transparência e a segurança na</p>
+  <p style="position:absolute;left:510.4px;top:495.1px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">gestão dos recursos. Quer entender</p>
+  <p style="position:absolute;left:510.4px;top:520.2px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">o que foi identificado e quais serão</p>
+  <p style="position:absolute;left:510.4px;top:545.4px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">os próximos passos? Acesse a</p>
+  <p style="position:absolute;left:510.4px;top:570.5px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">matéria completa no <span style="font-weight:700">site</span></p>
+  <p style="position:absolute;left:510.4px;top:595.7px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0"><span style="font-weight:700">(https://crtrsp.org.br/)</span> do CRTR-</p>
+  <p style="position:absolute;left:510.4px;top:620.9px;height:18.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.4px;color:#082244;white-space:pre;margin:0">SP e confira todos os detalhes.</p>
+  <p style="position:absolute;left:520.1px;top:188.5px;height:18.5px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:14.2px;line-height:18.5px;color:#082244;white-space:pre;margin:0">PRESTAÇÃO DE CONTAS - 2025</p>
 </div>
 </x-dc>
-<script data-dc-script>
-class Component extends DCLogic {}
-</script>
+<script data-dc-script>class Component extends DCLogic {}</script>
 </body>
 </html>

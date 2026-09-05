@@ -2,52 +2,69 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Alike&family=Montserrat:ital,wght@0,300..800;1,300..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Poppins:wght@400;500;600;700;800&display=swap">
   <script src="./support.js"></script>
 </head>
 <body>
 <x-dc>
-<helmet><style>* { box-sizing:border-box; } body{margin:0;font-family:'Inter',sans-serif;}
-.entry{display:flex;align-items:baseline;gap:16px;padding:10px 0;border-bottom:1px solid #eee;}
-.num{font-family:'Poppins';font-weight:800;font-size:22px;color:#0A2A6B;width:34px;flex-shrink:0;}
-.cat{display:inline-block;font-family:'Inter';font-weight:700;font-size:9px;letter-spacing:1px;color:#fff;padding:2px 8px;border-radius:3px;margin-bottom:3px;}
-.title{font-family:'Inter';font-weight:600;font-size:14px;color:#1a1a1a;}
-.author{font-family:'Inter';font-size:11px;color:#888;margin-top:1px;}
+<helmet><style>
+* { box-sizing:border-box; }
+body { margin:0; font-family:'Source Serif 4',Georgia,'Liberation Serif',serif; }
+a { color:#0a2a6b; } a:hover { color:#0c4195; }
+p { margin:0; }
 </style></helmet>
-<div style="width:794px;height:1123px;position:relative;background:#fff;color:#1a1a1a;padding:56px 64px 84px 64px;">
-  <div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:3px solid #0A2A6B;padding-bottom:14px;">
-    <div>
-      <div style="font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:2px;color:#888;">NESTA EDIÇÃO</div>
-      <div style="font-family:'Poppins';font-weight:800;font-size:44px;color:#0A2A6B;line-height:1;">SUMÁRIO</div>
-    </div>
-    <div style="text-align:right;font-family:'Inter';font-size:12px;color:#555;">
-      <div>SETEMBRO 2026</div>
-      <div style="font-weight:700;color:#0A2A6B;">VOL. 1</div>
-    </div>
-  </div>
-
-  <div style="margin-top:18px;">
-    <div class="entry"><div class="num">02</div><div><span class="cat" style="background:#0C4195;">EDITORIAL</span><div class="title">Palavra da Presidência</div><div class="author">TR Júlio César dos Santos — Presidente do CRTR-SP</div></div></div>
-    <div class="entry"><div class="num">04</div><div><span class="cat" style="background:#0C4195;">INSTITUCIONAL</span><div class="title">Mensagem da CORED-SP</div><div class="author">Fabrício Nazzari — Presidente da CORED-SP</div></div></div>
-    <div class="entry"><div class="num">05</div><div><span class="cat" style="background:#0C4195;">INSTITUCIONAL</span><div class="title">Membros da CORED</div></div></div>
-    <div class="entry"><div class="num">06</div><div><span class="cat" style="background:#0C4195;">INSTITUCIONAL</span><div class="title">Reuniões de Trabalho da CORED-SP</div></div></div>
-    <div class="entry"><div class="num">07</div><div><span class="cat" style="background:#692318;">ARTIGO DE OPINIÃO</span><div class="title">Formação em Radiologia — Entre o Currículo e a Prática</div><div class="author">Marcelo Salvador Celestino</div></div></div>
-    <div class="entry"><div class="num">11</div><div><span class="cat" style="background:#0A2A6B;">CAPA · ARTIGO</span><div class="title">Inteligência Artificial e Ressonância Magnética</div><div class="author">Alexsandro Euripedes Ferreira</div></div></div>
-    <div class="entry"><div class="num">16</div><div><span class="cat" style="background:#0C4195;">COBERTURA</span><div class="title">1º Workshop Online CORED</div><div class="author">Radioterapia e mamografia na era da IA</div></div></div>
-    <div class="entry"><div class="num">20</div><div><span class="cat" style="background:#C0530E;">PERSPECTIVAS DE MERCADO</span><div class="title">Radiologia Industrial</div><div class="author">Flávio Vieira</div></div></div>
-    <div class="entry"><div class="num">24</div><div><span class="cat" style="background:#0C4195;">BOLETIM INFORMATIVO</span><div class="title">Ações Fiscalizatórias · Jun–Ago 2026</div></div></div>
-    <div class="entry"><div class="num">28</div><div><span class="cat" style="background:#0A2A6B;">AGENDA</span><div class="title">Agenda CORED</div></div></div>
-    <div class="entry"><div class="num">29</div><div><span class="cat" style="background:#0C4195;">SERVIÇO</span><div class="title">Isso Pode? — Dúvidas gerais de Radiologia</div></div></div>
-    <div class="entry"><div class="num">30</div><div><span class="cat" style="background:#8a5b00;">CULTURA</span><div class="title">Dica de Cultura</div></div></div>
-    <div class="entry"><div class="num">32</div><div><span class="cat" style="background:#999;">CAPA</span><div class="title" style="color:#999;">Intervenções ou Golpes? <span style="font-weight:400;font-style:italic;">(conteúdo em finalização)</span></div></div></div>
-    <div class="entry" style="border-bottom:none;"><div class="num">34</div><div><span class="cat" style="background:#0A2A6B;">HOMENAGEM</span><div class="title">Professor Wilmar Torrano — Uma Vida Dedicada à Radiologia e à Educação</div></div></div>
-  </div>
-
-  <div style="position:absolute;right:64px;bottom:56px;opacity:0.9;">
-    <svg width="64" height="64" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" fill="#FFC20E"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M19 5l-3 3M8 16l-3 3" stroke="#0A2A6B" stroke-width="1.3" stroke-linecap="round"/></svg>
-  </div>
-
-  <div style="position:absolute;left:64px;right:64px;bottom:34px;font-family:'Inter';font-size:10.5px;letter-spacing:1px;color:#999;">ALÉM DA IMAGEM · CORED-SP · CRTR-SP</div>
+<div style="position:relative;width:794px;height:1123px;overflow:hidden;background:#ffffff">
+  <img src="plate02.jpg" style="position:absolute;left:0;top:0;width:794px;height:1123px;" alt="">
+  <p style="position:absolute;left:56.0px;top:53.1px;height:15.9px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:13.0px;line-height:15.9px;color:#1657d0;white-space:pre;margin:0">N E S T A  E D I Ç Ã O</p>
+  <p style="position:absolute;left:56.0px;top:62.0px;height:88.1px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:60.0px;line-height:88.1px;color:#ff3131;white-space:pre;margin:0">SUMÁRIO</p>
+  <p style="position:absolute;left:148.7px;top:176.9px;height:12.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.5px;line-height:12.8px;color:#1657d0;white-space:pre;margin:0">C A P A  ·  A R T I G O</p>
+  <p style="position:absolute;left:148.7px;top:210.1px;height:15.7px;font-family:'Source Serif 4','Source Serif Pro',Georgia,'Liberation Serif',serif;font-size:12.5px;line-height:15.7px;color:#5b6470;white-space:pre;margin:0">Dr. Alexsandro Ferreira</p>
+  <p style="position:absolute;left:627.0px;top:100.1px;height:14.6px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:12.0px;line-height:14.6px;color:#5b6470;white-space:pre;margin:0">SETEMBRO 2026</p>
+  <p style="position:absolute;left:687.0px;top:99.7px;height:32.3px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:22.0px;line-height:32.3px;color:#0a2a6b;white-space:pre;margin:0">VOL. 1</p>
+  <p style="position:absolute;left:86.7px;top:183.7px;height:48.4px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:33.0px;line-height:48.4px;color:#0a2a6b;white-space:pre;margin:0">11</p>
+  <p style="position:absolute;left:69.8px;top:252.9px;height:48.4px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:33.0px;line-height:48.4px;color:#0a2a6b;white-space:pre;margin:0">02</p>
+  <p style="position:absolute;left:69.8px;top:311.9px;height:48.4px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:33.0px;line-height:48.4px;color:#0a2a6b;white-space:pre;margin:0">04</p>
+  <p style="position:absolute;left:69.8px;top:378.9px;height:48.4px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:33.0px;line-height:48.4px;color:#0a2a6b;white-space:pre;margin:0">07</p>
+  <p style="position:absolute;left:72.5px;top:454.9px;height:48.4px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:33.0px;line-height:48.4px;color:#0a2a6b;white-space:pre;margin:0">16</p>
+  <p style="position:absolute;left:72.4px;top:523.0px;height:48.4px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:33.0px;line-height:48.4px;color:#0a2a6b;white-space:pre;margin:0">20</p>
+  <p style="position:absolute;left:72.4px;top:590.0px;height:48.4px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:33.0px;line-height:48.4px;color:#0a2a6b;white-space:pre;margin:0">21</p>
+  <p style="position:absolute;left:72.4px;top:657.0px;height:48.4px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:33.0px;line-height:48.4px;color:#0a2a6b;white-space:pre;margin:0">24</p>
+  <p style="position:absolute;left:72.4px;top:717.0px;height:48.4px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:33.0px;line-height:48.4px;color:#0a2a6b;white-space:pre;margin:0">29</p>
+  <p style="position:absolute;left:72.3px;top:777.1px;height:48.4px;font-family:'Anton','Oswald','Arial Narrow','Liberation Sans Narrow',sans-serif;font-size:33.0px;line-height:48.4px;color:#0a2a6b;white-space:pre;margin:0">30</p>
+  <p style="position:absolute;left:131.7px;top:725.2px;height:12.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.5px;line-height:12.8px;color:#1657d0;white-space:pre;margin:0">S E R V I Ç O</p>
+  <p style="position:absolute;left:131.7px;top:735.0px;height:23.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:19.0px;line-height:23.2px;color:#14171c;white-space:pre;margin:0">Isso Pode?</p>
+  <p style="position:absolute;left:131.7px;top:785.2px;height:12.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.5px;line-height:12.8px;color:#1657d0;white-space:pre;margin:0">C U L T U R A</p>
+  <p style="position:absolute;left:131.7px;top:795.0px;height:23.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:19.0px;line-height:23.2px;color:#14171c;white-space:pre;margin:0">Dicas Literárias</p>
+  <p style="position:absolute;left:131.7px;top:588.2px;height:12.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.5px;line-height:12.8px;color:#1657d0;white-space:pre;margin:0">A R T I G O</p>
+  <p style="position:absolute;left:131.7px;top:597.9px;height:23.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:19.0px;line-height:23.2px;color:#14171c;white-space:pre;margin:0">Radiologia Industrial</p>
+  <p style="position:absolute;left:131.7px;top:665.2px;height:12.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.5px;line-height:12.8px;color:#1657d0;white-space:pre;margin:0">C O B E R T U R A</p>
+  <p style="position:absolute;left:131.7px;top:675.0px;height:23.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:19.0px;line-height:23.2px;color:#14171c;white-space:pre;margin:0">Ações da CORED-SP</p>
+  <p style="position:absolute;left:131.7px;top:254.0px;height:12.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.5px;line-height:12.8px;color:#1657d0;white-space:pre;margin:0">E D I T O R I A L</p>
+  <p style="position:absolute;left:131.7px;top:263.8px;height:23.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:19.0px;line-height:23.2px;color:#14171c;white-space:pre;margin:0">Palavra da</p>
+  <p style="position:absolute;left:131.7px;top:282.8px;height:23.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:19.0px;line-height:23.2px;color:#14171c;white-space:pre;margin:0">Presidência</p>
+  <p style="position:absolute;left:131.7px;top:528.1px;height:12.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.5px;line-height:12.8px;color:#1657d0;white-space:pre;margin:0">A N Á L I S E</p>
+  <p style="position:absolute;left:131.7px;top:537.9px;height:23.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:19.0px;line-height:23.2px;color:#14171c;white-space:pre;margin:0">Perspectivas de Mercado</p>
+  <p style="position:absolute;left:131.7px;top:314.1px;height:12.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.5px;line-height:12.8px;color:#1657d0;white-space:pre;margin:0">I N S T I T U C I O N A L</p>
+  <p style="position:absolute;left:131.7px;top:323.8px;height:23.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:19.0px;line-height:23.2px;color:#14171c;white-space:pre;margin:0">Mensagem da CORED-SP</p>
+  <p style="position:absolute;left:131.7px;top:451.1px;height:12.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.5px;line-height:12.8px;color:#1657d0;white-space:pre;margin:0">C O B E R T U R A</p>
+  <p style="position:absolute;left:131.7px;top:460.9px;height:23.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:19.0px;line-height:23.2px;color:#14171c;white-space:pre;margin:0">1º Workshop Online CORED</p>
+  <p style="position:absolute;left:131.7px;top:374.1px;height:12.8px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.5px;line-height:12.8px;color:#1657d0;white-space:pre;margin:0">A R T I G O  D E  O P I N I Ã O</p>
+  <p style="position:absolute;left:131.7px;top:383.9px;height:23.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:19.0px;line-height:23.2px;color:#14171c;white-space:pre;margin:0">A grade curricular não forma</p>
+  <p style="position:absolute;left:148.7px;top:188.0px;height:23.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:19.0px;line-height:23.2px;color:#14171c;white-space:pre;margin:0">IA e Ressonância Magnética: para além da imagem</p>
+  <p style="position:absolute;left:131.7px;top:621.3px;height:15.7px;font-family:'Source Serif 4','Source Serif Pro',Georgia,'Liberation Serif',serif;font-size:12.5px;line-height:15.7px;color:#5b6470;white-space:pre;margin:0">FlávioVieira</p>
+  <p style="position:absolute;left:131.7px;top:407.2px;height:15.7px;font-family:'Source Serif 4','Source Serif Pro',Georgia,'Liberation Serif',serif;font-size:12.5px;line-height:15.7px;color:#5b6470;white-space:pre;margin:0">MarceloCelestino</p>
+  <p style="position:absolute;left:131.7px;top:484.2px;height:15.7px;font-family:'Source Serif 4','Source Serif Pro',Georgia,'Liberation Serif',serif;font-size:12.5px;line-height:15.7px;color:#5b6470;white-space:pre;margin:0">Radioterapia<span style="color:#000000"> </span>e<span style="color:#000000"> </span>mamografia<span style="color:#000000"> </span>na<span style="color:#000000"> </span>era<span style="color:#000000"> </span>da<span style="color:#000000"> </span>IA</p>
+  <p style="position:absolute;left:656.9px;top:326.0px;height:12.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.0px;line-height:12.2px;color:#5b6470;white-space:pre;margin:0">MANIFESTO</p>
+  <p style="position:absolute;left:675.9px;top:394.0px;height:12.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.0px;line-height:12.2px;color:#5b6470;white-space:pre;margin:0">OPINIÃO</p>
+  <p style="position:absolute;left:677.9px;top:471.0px;height:12.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.0px;line-height:12.2px;color:#5b6470;white-space:pre;margin:0">EVENTO</p>
+  <p style="position:absolute;left:641.9px;top:540.1px;height:12.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.0px;line-height:12.2px;color:#5b6470;white-space:pre;margin:0">ANÁLISE</p>
+  <p style="position:absolute;left:641.9px;top:608.1px;height:12.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.0px;line-height:12.2px;color:#5b6470;white-space:pre;margin:0">ARTIGO</p>
+  <p style="position:absolute;left:641.9px;top:677.1px;height:12.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.0px;line-height:12.2px;color:#5b6470;white-space:pre;margin:0">COBERTURA</p>
+  <p style="position:absolute;left:641.9px;top:737.1px;height:12.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.0px;line-height:12.2px;color:#5b6470;white-space:pre;margin:0">SERVIÇO</p>
+  <p style="position:absolute;left:641.9px;top:797.2px;height:12.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.0px;line-height:12.2px;color:#5b6470;white-space:pre;margin:0">CULTURA</p>
+  <p style="position:absolute;left:663.9px;top:266.0px;height:12.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.0px;line-height:12.2px;color:#5b6470;white-space:pre;margin:0">ABERTURA</p>
+  <p style="position:absolute;left:663.9px;top:196.9px;height:12.2px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:10.0px;line-height:12.2px;color:#5b6470;white-space:pre;margin:0">DESTAQUE</p>
+  <p style="position:absolute;left:56.0px;top:1076.5px;height:13.4px;font-family:'Montserrat','Liberation Sans',Arial,sans-serif;font-size:11.0px;line-height:13.4px;color:#0a2a6b;white-space:pre;margin:0">ALÉM DA IMAGEM · CORED-SP · CRTR-SP</p>
 </div>
 </x-dc>
 <script data-dc-script>class Component extends DCLogic {}</script>
